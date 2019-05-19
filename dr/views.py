@@ -22,3 +22,9 @@ def index(request):
     }
 
     return render(request, 'index.html', context=context)
+def login(request):
+    return render(request, 'login.html')
+def register(request):
+    return render(request, 'register.html')
+def forgot_password(request):
+    return render(request, 'forgot_password.html')
